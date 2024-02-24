@@ -57,10 +57,10 @@ public class MetodoComParametros {
           System.out.println(metodoCincoComRetorno("Valeria"));
 
       metodoUmSemRetorno("Adriana -1");
-      metodoDoisSemRetorno("Adnys -2");
+      metodoDoisSemRetorno("Adnys - 2");
       metodoTresSemRetorno("Flavio - 3");
       metodoQuatroSemRetorno("Jesse - 4 ");
-      metodoCincoSemRetorno("Valeria - 5");
+      metodoCincoSemRetorno("Valeria- 5");
       }
 
   }
