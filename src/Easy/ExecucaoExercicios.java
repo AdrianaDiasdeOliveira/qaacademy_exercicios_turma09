@@ -27,6 +27,7 @@ public class ExecucaoExercicios {
 
 //Exercicio_05_easy
 
+/*
         String primeiroNumero = JOptionPane.showInputDialog("Digite o Primeiro Número: ");
         String segundoNumero = JOptionPane.showInputDialog("Digite o Segundo  Número: ");
         String terceiroNumero = JOptionPane.showInputDialog("Digite o Terceiro Número: ");
@@ -41,8 +42,17 @@ public class ExecucaoExercicios {
         System.out.println( "A Multiplicação dos numeros Digitados será: " + exercicio_05_easy.exibirMultiplicacao(num1,num2,num3));
         System.out.println( "A Media dos numeros Digitados será: " + exercicio_05_easy.exibirMedia(num1,num2,num3));
 
+*/
+//Exercicio_06_easy
 
+        String primeiraNota = JOptionPane.showInputDialog("Digite a 1º Nota :");
+        String SegundaNota = JOptionPane.showInputDialog("Digite a 2º Nota :");
 
+        double nota1 = Double.parseDouble(primeiraNota); // Conversão e atribuição na variavel primeiraNota / SegundaNota
+        double nota2 = Double.parseDouble(SegundaNota);
+
+        Exercicio_06_Licao_de_casa exercicio_06_Licao_de_casa = new Exercicio_06_Licao_de_casa();
+        System.out.println(exercicio_06_Licao_de_casa.CalcularMedia(nota1 ,nota2));
 
 
 
