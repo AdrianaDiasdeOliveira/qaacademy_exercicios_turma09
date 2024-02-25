@@ -12,7 +12,7 @@ public class Exercicio_03_easy { // inicio do algoritmo
 
     public  String armazenarValoresTrocados(String valor1,String valor2) {
 
-/*     String valor1 = JOptionPane.showInputDialog("Digite o Primeiro Valor: ");
+/*   String valor1 = JOptionPane.showInputDialog("Digite o Primeiro Valor: ");
      String valor2 = JOptionPane.showInputDialog("Digite o Segundo Valor: ");*/
 
         return "Primeiro Valor:" + valor2 + "\n"+ "Segundo Valor :" + valor1;
