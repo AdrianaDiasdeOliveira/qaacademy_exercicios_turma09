@@ -3,7 +3,7 @@ package Easy;
 import javax.swing.*;
 
 public class Exercicio_10_Licao_de_casa {
-    public static void main(String[] args) {
+    public  double CalcularIvestimento( double valorInvestimento) {
         // História de Usuário: Cálculo de Investimento com Juros Simples. Como usuário,
 // desejo inserir um valor de investimento e visualizar, após 10 anos, o valor investido, o montante dos juros e
 // o total acumulado com juros, considerando uma taxa de juros simples de 12% ao ano. Isso proporcionará uma
@@ -15,21 +15,24 @@ public class Exercicio_10_Licao_de_casa {
 // O sistema deve exibir de forma clara e legível o valor investido, o montante dos juros e o total acumulado com juros após 10 anos
 
 
-        double valorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor investido"));
-        double taxaJuros = 0.12;
-        int tempoInvestido = 10;
-        double taxaJurosTotal = 0.0;
+        // double valorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor investido"));
 
-        for (int i = 1; i <= tempoInvestido; i++) {
-            taxaJurosTotal = taxaJurosTotal + taxaJuros;
-        }
-        double valorTotal = (valorInvestimento * taxaJurosTotal) + valorInvestimento;
+                //double valorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor investido"));
+                double taxaJuros = 0.12;
+                int tempoInvestido = 10;
+                double taxaJurosTotal = 0.0;
 
-        System.out.println("Valor Investido: " + valorInvestimento);
-        System.out.println("Taxa de juros acumulada: " + (taxaJuros * 100) + "%");
-        System.out.println("Valor Total: " + valorTotal);
+                for (int i = 1; i <= tempoInvestido; i++) {
+                    taxaJurosTotal = taxaJurosTotal + taxaJuros;
+                }
+                double valorTotal = (valorInvestimento * taxaJurosTotal) + valorInvestimento;
 
+                System.out.println("Valor Investido: " + valorInvestimento);
+                System.out.println("Taxa de juros acumulada: " + (taxaJuros * 100) + "%");
+                System.out.println("Valor Total: " + valorTotal);
+
+        return taxaJuros;
     }// fim main
 
-    }
+        }// fim da classe
 

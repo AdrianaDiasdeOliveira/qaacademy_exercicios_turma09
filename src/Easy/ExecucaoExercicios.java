@@ -58,10 +58,18 @@ public class ExecucaoExercicios {
 
         //Exercicio_09_easy
 
-        String numeroDigitado = JOptionPane.showInputDialog("Digite o Número para a Tabuada : ");
+    /*    String numeroDigitado = JOptionPane.showInputDialog("Digite o Número para a Tabuada : ");
         int numero = Integer.parseInt(numeroDigitado);
         Exercicio_09_Licao_de_casa exercicio_09_Licao_de_casa = new Exercicio_09_Licao_de_casa();
-        exercicio_09_Licao_de_casa.calcularTabuada(numero);
+        exercicio_09_Licao_de_casa.calcularTabuada(numero);*/
+
+
+       //   Exercicio_10_Licao_de_casa
+        double valorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor investido"));
+        Exercicio_10_Licao_de_casa  exercicio_10_Licao_de_casa = new Exercicio_10_Licao_de_casa();
+        exercicio_10_Licao_de_casa.CalcularIvestimento(valorInvestimento);
+
+
 
 
 
