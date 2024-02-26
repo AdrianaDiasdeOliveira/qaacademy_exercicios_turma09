@@ -1,5 +1,7 @@
 package Easy;
 
+import Medium.Exercicio_11_Licao_de_casa_Nivel_Medium;
+
 import javax.swing.*;
 
 public class ExecucaoExercicios {
@@ -65,13 +67,13 @@ public class ExecucaoExercicios {
 
 
        //   Exercicio_10_Licao_de_casa
-        double valorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor investido"));
+/*        double valorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor investido"));
         Exercicio_10_Licao_de_casa  exercicio_10_Licao_de_casa = new Exercicio_10_Licao_de_casa();
-        exercicio_10_Licao_de_casa.CalcularIvestimento(valorInvestimento);
+        exercicio_10_Licao_de_casa.CalcularIvestimento(valorInvestimento);*/
 
-
-
-
-
+       // Exercicio_11_Licao_de_casa_Nivel_Medium
+         Integer numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Digite um Número:"));
+        Exercicio_11_Licao_de_casa_Nivel_Medium exercicio_11_Nivel_Medium = new Exercicio_11_Licao_de_casa_Nivel_Medium();
+        System.out.println(exercicio_11_Nivel_Medium.LerInteiro(numeroDigitado));
     }
 }
