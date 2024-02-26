@@ -1,7 +1,7 @@
 package Medium;
 
 public class Exercicio_12_Licao_de_casa_Nivel_Medium {
-    public static void main(String[] args) {
+    public  void verificarParesEImpar() {
         int numero = 0;
 
         while (numero <= 100) {  // realizar a contagem ate 100
