@@ -3,11 +3,11 @@ package Vetores;
 import javax.swing.*;
 
 public class Exercicio_05_Licao_de_casa_Nivel_Medium {
-    public static void main(String[] args) {
+    public  void VerificarNumeros() {
 
-        // 5-) Faça um algoritmo para ler 5 números,verificar e exibir, quais dos 5 números digitados, é o menor.
+      // 5-) Faça um algoritmo para ler 5 números,verificar e exibir, quais dos 5 números digitados, é o menor.
 
-        int menorNumero = 1;
+      int menorNumero = 1;
 
         for (int i = 1; i <= 5; i++) {
             Integer numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog(" Informe o Número : "));

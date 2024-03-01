@@ -25,9 +25,14 @@ public class RefatoracaoMedium {
 
 
    // Exercicio_15_Licao_de_casa_Nivel_Medium
+ /*       Exercicio_15_Licao_de_casa_Nivel_Medium exercicio_04_Nivel_Medium = new Exercicio_15_Licao_de_casa_Nivel_Medium();
+        exercicio_04_Nivel_Medium.ExibirMultiplicacao(); */
 
-        Exercicio_15_Licao_de_casa_Nivel_Medium exercicio_04_Nivel_Medium = new Exercicio_15_Licao_de_casa_Nivel_Medium();
-        exercicio_04_Nivel_Medium.ExibirMultiplicacao();
+
+
+
+
+
     }
 
 }
