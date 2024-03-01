@@ -1,7 +1,7 @@
 package Vetores;
 
 public class Exercicio_07_Licao_de_casa_Nivel_Medium {
-    public static void main(String[] args) {
+    public  void ExibirMeses() {
 
         //  7-) Faça um algoritmo para ler todos os meses do ano, armazene em um vetor.
 
