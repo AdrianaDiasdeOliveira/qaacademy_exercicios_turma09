@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class Exercicio_08_Licao_de_casa_Nivel_Medium {
 
-    public static void main(String[] args) {
+    public  void LerMeses() {
 
         String[] meses = new String[12];
 

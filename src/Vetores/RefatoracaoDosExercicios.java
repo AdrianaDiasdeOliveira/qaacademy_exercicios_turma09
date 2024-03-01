@@ -15,9 +15,23 @@ public class RefatoracaoDosExercicios {
 
 
        //  Exercicio_07_Licao_de_casa_Nivel_Medium
-        Exercicio_07_Licao_de_casa_Nivel_Medium  exercicio_07_Medium = new Exercicio_07_Licao_de_casa_Nivel_Medium();
-        exercicio_07_Medium.ExibirMeses();
-}
+//        Exercicio_07_Licao_de_casa_Nivel_Medium  exercicio_07_Medium = new Exercicio_07_Licao_de_casa_Nivel_Medium();
+//        exercicio_07_Medium.ExibirMeses();
+
+        //  Exercicio_08_Licao_de_casa_Nivel_Medium
+//       Exercicio_08_Licao_de_casa_Nivel_Medium  exercicio_08_Medium = new Exercicio_08_Licao_de_casa_Nivel_Medium();
+//       exercicio_08_Medium.LerMeses();
+
+
+
+
+
+        //  Exercicio_10_Licao_de_casa_Nivel_Medium
+   Exercicio_10_Licao_de_casa_Nivel_Medium  exercicio_10_Medium = new Exercicio_10_Licao_de_casa_Nivel_Medium();
+    exercicio_10_Medium.ExibirSequencias();
+
+
+    }
 
 
 }
