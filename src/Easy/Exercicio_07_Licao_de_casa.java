@@ -6,10 +6,10 @@ public class Exercicio_07_Licao_de_casa {
 //    7-) Faça um algoritmo para ler um valor de salário, calcular e exibir o  valor do INSS a ser pago.
 //    Respeitando a tabela abaixo: inss= salario * aliquota
 
-    public static void main(String[] args) {
-         double inss = 0;
+    public double  CalcularSalario (double salario) {
+        double inss = 0;
 
-        double salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de Salario :"));
+        // double salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de Salario :"));
 
         if (salario < 1320.00) {
             inss = salario * 0.075; //aliquota 7,5%
@@ -27,7 +27,7 @@ public class Exercicio_07_Licao_de_casa {
             inss = 1051.04;
         }
         System.out.println("O Valor do inss a ser pago é R$ " + inss);
+        return inss;
     }
 }
-
 
