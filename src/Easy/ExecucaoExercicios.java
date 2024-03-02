@@ -20,17 +20,17 @@ public class ExecucaoExercicios {
      System.out.println(exercicio03Easy.armazenarValoresTrocados(valor1 , valor2));*/
 
 
-        //Exercicio_04_easy
-/*      String numeroDigitado = JOptionPane.showInputDialog("Digite o Número Inteiro:");
-        int  numero1 = Integer.parseInt(numeroDigitado); // Conversão e atribuição na variavel numeroDigitado
+                             // **  Exercicio_04_easy ** //
+   /*     String numeroDigitado = JOptionPane.showInputDialog("Digite o Número Inteiro:");
+        int numero1 = Integer.parseInt(numeroDigitado);
         Exercicio_04_Licao_de_casa exercicio04Easy = new Exercicio_04_Licao_de_casa();
-        System.out.println("O dobro do valor de: " + numero1 + " é " + exercicio04Easy.calcularDobro(numero1));*/
+        System.out.println("O dobro do valor de: " + numero1 + " é " + exercicio04Easy.calcularDobro(numero1)); */
 
 
-//Exercicio_05_easy
+                                           //Exercicio_05_easy
 
-/*
-        String primeiroNumero = JOptionPane.showInputDialog("Digite o Primeiro Número: ");
+
+   /*      String primeiroNumero = JOptionPane.showInputDialog("Digite o Primeiro Número: ");
         String segundoNumero = JOptionPane.showInputDialog("Digite o Segundo  Número: ");
         String terceiroNumero = JOptionPane.showInputDialog("Digite o Terceiro Número: ");
 
@@ -42,9 +42,9 @@ public class ExecucaoExercicios {
         System.out.println( "A soma dos numeros Digitados será: " + exercicio_05_easy.exibirSoma(num1,num2,num3));
         System.out.println( "A Subtração dos numeros Digitados será: " + exercicio_05_easy.exibirSubitracao(num1,num2));
         System.out.println( "A Multiplicação dos numeros Digitados será: " + exercicio_05_easy.exibirMultiplicacao(num1,num2,num3));
-        System.out.println( "A Media dos numeros Digitados será: " + exercicio_05_easy.exibirMedia(num1,num2,num3));
+        System.out.println( "A Media dos numeros Digitados será: " + exercicio_05_easy.exibirMedia(num1,num2,num3));*/
 
-*/
+
         //Exercicio_06_easy
 
   /*      String primeiraNota = JOptionPane.showInputDialog("Digite a 1º Nota :");
@@ -58,6 +58,13 @@ public class ExecucaoExercicios {
 
 */
 
+        //Exercicio_07_Licao_de_casa
+//
+//      double salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de Salario :"));
+//        Exercicio_07_Licao_de_casa exercicio_07_Licao_de_casa = new Exercicio_07_Licao_de_casa();
+//        System.out.println(exercicio_07_Licao_de_casa.CalcularSalario(salario));
+
+
         //Exercicio_09_easy
 
     /*    String numeroDigitado = JOptionPane.showInputDialog("Digite o Número para a Tabuada : ");
@@ -66,7 +73,7 @@ public class ExecucaoExercicios {
         exercicio_09_Licao_de_casa.calcularTabuada(numero);*/
 
 
-       //   Exercicio_10_Licao_de_casa
+        //   Exercicio_10_Licao_de_casa
 /*        double valorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor investido"));
         Exercicio_10_Licao_de_casa  exercicio_10_Licao_de_casa = new Exercicio_10_Licao_de_casa();
         exercicio_10_Licao_de_casa.CalcularIvestimento(valorInvestimento);*/
